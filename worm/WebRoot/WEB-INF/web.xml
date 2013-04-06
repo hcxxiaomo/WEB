@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>worm</display-name>
+  
+  
+   <servlet>
+  	<servlet-name>AddMed</servlet-name>
+  	<servlet-class>com.xpf.database.medicine.AddMed</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AlterMed</servlet-name>
+  	<servlet-class>com.xpf.database.medicine.AlterMed</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DeleteMed</servlet-name>
+  	<servlet-class>com.xpf.database.medicine.DeleteMed</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddDev</servlet-name>
+  	<servlet-class>com.xpf.database.device.AddDev</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AlterDev</servlet-name>
+  	<servlet-class>com.xpf.database.device.AlterDev</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DeleteDev</servlet-name>
+  	<servlet-class>com.xpf.database.device.DeleteDev</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddBook</servlet-name>
+  	<servlet-class>com.xpf.database.book.AddBook</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AlterBook</servlet-name>
+  	<servlet-class>com.xpf.database.book.AlterBook</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>DeleteBook</servlet-name>
+  	<servlet-class>com.xpf.database.book.DeleteBook</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  
+<servlet-mapping>
+	<servlet-name>AddMed</servlet-name>
+	<url-pattern>/AddMed</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>AlterMed</servlet-name>
+	<url-pattern>/AlterMed</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteMed</servlet-name>
+	<url-pattern>/DeleteMed</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>AddDev</servlet-name>
+	<url-pattern>/AddDev</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>AlterDev</servlet-name>
+	<url-pattern>/AlterDev</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteDev</servlet-name>
+	<url-pattern>/DeleteDev</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>AddBook</servlet-name>
+	<url-pattern>/AddBook</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>AlterBook</servlet-name>
+	<url-pattern>/AlterBook</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteBook</servlet-name>
+	<url-pattern>/DeleteBook</url-pattern>
+</servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

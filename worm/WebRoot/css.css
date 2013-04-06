@@ -1,0 +1,667 @@
+/****************************************************************************/
+/**                      modify:xiaomo                                     **/
+/**                      日期：2012.8.20                                     **/
+/**                        QQ：283546921                                    **/
+/**                     EMAIL：hcxhcxhcx666666@163.com                      **/
+/****************************************************************************/
+body { /*margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	*/
+	margin: 0px;
+	text-align: center;
+	background: f0f0f0;
+}
+/*页面主容器样式*/
+#container {
+	width: 950px;
+	height: 1083px;
+	margin: 0px auto;
+	background: #ececec;
+	text-align: left;
+	background: url(image/container.jpg);
+}
+
+/*页面头*/
+#header {
+	width: 950px;
+	height: 200px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+/*表头*/
+#titlebar {
+	width: 950px;
+	height: 50px;
+	margin: 0 auto;
+}
+/*飞行文字*/
+#flywords {
+	width: 950px;
+	height: 25px;
+	margin: 0 auto;
+	margin-top: 5 px;
+}
+/*页面中间上*/
+#midbodyup {
+	width: 950px;
+	height: 280px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*左边图片*/
+#leftsidepicture {
+	width: 400px;
+	margin-left: 10px;
+	float: left;
+	height: 275px;
+}
+
+.bottom1 {
+	height: 15px;
+	width: :400px;
+	position: fixed;
+}
+
+/*中间新闻
+#middlenews{
+width:500px; 
+float:right;
+margin-left:17px;
+height:265px;
+backgournd:#124342;
+}*/
+#middlenews_box {
+	margin-bottom: 0px;
+	background-image: url(/worm/image/notice_bg.jpg);
+	width: 500;
+	float: right;
+	margin-right: 10px;
+	height: 275px;
+	margin-top: 0px;
+}
+
+.noticetitle {
+	font-size: 14px;
+	color: #048dc6;
+	font-weight: bold;
+	position: relative;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.noticetitle .noticemore {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 0;
+	right: 20;
+	background: url(image/more.jpg) no-repeat center;
+}
+/*右边导师介绍*/
+#rightsideteacher {
+	width: 300px;
+	height: 275px;
+	float: right;
+	margin-right: 9px;
+}
+
+/*中间图片*/
+#middlepicture {
+	width: 950;
+	height: auto;
+	margin: 0 auto;
+}
+
+#middlepicturedowm {
+	width: 950;
+	height: auto;
+	margin: 0 auto;
+}
+/*下面容器*/
+#bottom {
+	width: 950px;
+	height: 270px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: left;
+	margin-top: 10px;
+	margin-left:9px;
+}
+/*下面左边新闻动态*/
+#bottomleftnotice {
+	width: 300px;
+	height: 270px;
+	padding-left: 10px;
+	float: left;
+	clear: left;
+	margin-left: 0px;
+	background: url(image/template.jpg) no-repeat;
+}
+/*下面中间近期论文*/
+#bottommiddlepaper {
+	width: 300px;
+	height: 270px;
+	margin-left: 5px;
+	float: left;
+	padding-left: 10px;
+	background: url(image/template.jpg) no-repeat;
+}
+/*下面右边经验交流*/
+#bottomrightexprence {
+	width: 300px;
+	height: 270px;
+	float: right;
+	margin-right: 10px;
+	padding-left: 10px;
+	background: url(image/template.jpg) no-repeat;
+}
+/*图片和友情链接*/
+#bottompicandlink {
+	width: 950px;
+	height: 160px;
+	margin: 0 auto;
+	margin-top: 8px;
+	overflow: hidden;
+}
+
+/*下面左边图片*/
+#bottompic {
+	width: 700px;
+	height: 160px;
+	float: left;
+	clear: left;
+	margin-left: 5px;
+}
+
+#botpic {
+	width: 700px;
+	height: 145px;
+	float: left;
+	clear: left;
+	margin-top: 5px;
+	background: #FC0;
+}
+
+#demo {
+	background: #FFF;
+	overflow: hidden;
+	border: 1px dashed #CCC;
+	width: 700px;
+}
+
+#demo img {
+	border: 1px solid #F2F2F2;
+}
+
+#indemo {
+	float: left;
+	width: 800%;
+}
+
+#demo1 {
+	float: left;
+}
+
+#demo2 {
+	float: left;
+}
+/*下面右边链接*/
+#link {
+	width: 235px;
+	height: 140px;
+	float: right;
+	padding-left: 3px;
+	padding-top: 3px;
+	margin: 0px;
+}
+/*页面底部*/
+#foot {
+	text-align: center;
+	/*background: url(image/middlepic.jpg) no-repeat top;*/
+	border-top:1px solid #7B68EE ;
+	border-bottom:1px solid #999999 ;
+}
+
+/*以下为上面左边图片处理*/
+ul {
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+.container {
+	width: 400px;
+	height: 275px;
+}
+
+.container a img {
+	width: 400px;
+	height: 275px;
+}
+
+.container img {
+	border-bottom-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-left-style: none;
+}
+
+.td_f a img {
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+.num {
+	position: absolute;
+	width: 90px;
+	float: right;
+	top: 255px;
+	right: 3px;
+}
+
+.num li {
+	text-align: center;
+	line-height: 15px;
+	list-style-type: none;
+	margin: 1px;
+	width: 15px;
+	font-family: arial;
+	background: no-repeat -15px 0px;
+	float: left;
+	height: 15px;
+	color: #86a2b8;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.num li.on {
+	line-height: 15px;
+	width: 15px;
+	background: no-repeat;
+	height: 15px;
+	color: #ffffff;
+}
+
+.more {
+	float: right;
+}
+
+.more1 a {
+	text-align: left;
+	line-height: 25px;
+	margin: 0px 0px 0px 15px;
+	color: #3373a3;
+}
+
+/*以下为导航栏*/
+/*链接*/
+A:link {
+	COLOR: #000;
+	TEXT-DECORATION: none;
+	background: none;
+}
+
+A:visited {
+	COLOR: #000;
+	TEXT-DECORATION: none;
+	background: none;
+}
+
+A:hover {
+	COLOR: #000;
+	TEXT-DECORATION: none;
+	background: url(/worm/image/bg3.jpg) repeat-x;
+}
+
+/*容器DIV样式*/
+#menu {
+	background-image: url(/worm/image/button.jpg);
+	/*background:url(/image/bg3.jpg) repeat-x;*/
+	height: 36px;
+	padding: 14px 0px 0px 0px;
+	/*border:2px #dddddd solid;*/
+	width: 950px;
+}
+
+/*使用A来定义导航*/
+#menu a {
+	font-size: 20px;
+	height: 50px;
+	float: auto;
+	padding: 15px 16px 15px 16px;
+	width: auto;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+/*下面为文字控制*/
+.titleWord {
+	font-size: 14px;
+	color: #048dc6;
+	font-weight: bold;
+}
+
+.titleWord a {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.b1 {
+	font-size: 14px;
+	color: #69F;
+	text-align: left;
+}
+
+.b2 {
+	font-size: 14px;
+	line-height: 16px;
+	text-align: left;
+}
+
+.tea {
+	font-size: 12px;
+	line-height: 16px;
+	text-align: left;
+}
+
+#footword {
+	font-size: 13px;
+	text-align: center;
+	line-height: 18px;
+	
+}
+
+
+/*各个窗口美化*/
+.templatemo_box {
+	margin-bottom: 0px;
+	/*background: url(image/templatemo_box_body.jpg) repeat-y right;*/
+	background: url(image/template.jpg)
+	width: 300;
+	height: 260px;
+}
+
+.templatemo_box .body {
+	padding: 0px 15px 5px 15px;
+}
+
+.templatemo_box h2 {
+	position: relative;
+	height: 12px;
+	margin: 0;
+	padding: 8px 15px;
+	font-size: 14px;
+	color: #048dc6;
+	font-weight: bold;
+	/*background: url(image/templatemo_box_tr.jpg) no-repeat top right;*/
+}
+
+/*.templatemo_box h2 span {
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	top: 0;
+	left: 0;
+	background: url(image/templatemo_box_tl.jpg);
+}*/
+.templatemo_box h2 morethings {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 0;
+	right: 20;
+	background: url(image/more.jpg) no-repeat center;
+}
+
+.morethings {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 0;
+	right: 20;
+	background: url(image/more.jpg) no-repeat center;
+}
+
+.templatemo_box .box_bottom {
+	position: relative;
+	height: 12px;
+	background: url(image/templatemo_box_br.jpg);
+	margin-top: 11px;
+}
+/*
+.templatemo_box .box_bottom span {
+	position: relative;
+	width: 10px;
+	height: 12px;
+	top: 0;
+	left: 0;
+	background: url(image/templatemo_box_bl.jpg) bottom left;
+}
+*/
+.side_menu {
+	list-style: none;
+	padding: 0px;
+	margin: 0 0 0 4px;
+	height: 210px;
+}
+
+.side_menu li {
+	padding: 0;
+	margin: 9px 0px 9px 0px;
+	height: 10x;
+	line-height: 16px;
+}
+
+.side_menu li a {
+	display: block;
+	color: #666;
+	padding: 0px 15px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	text-decoration: none;
+	/*background: url(image/templatemo_menu_list.png) left center no-repeat;*/
+}
+
+.side_menu li a:hover {
+	color: #c85d16;
+}
+
+.table {
+	font-size: 13px;
+	margin-left: 0px;
+}
+
+.table tr {
+	line-height: 18px;
+}
+
+.containerdetail {
+	width: 950px;
+	margin: 0px auto;
+	background: #ececec;
+	text-align: left;
+	background: url(image/container.jpg);
+}
+
+/*以下为后来加的3个页面*/
+#pagebody {
+	width: 950px;
+	margin: 0px auto;
+	/*	position:absolute;*/
+	padding-bottom:50px;
+	height:auto;
+	min-height:260px;
+	background: url(image/container1.jpg);
+}
+
+#other_sidebar {
+	float: left;
+	
+	width : 200px;
+	height: auto;
+	background: url(image/otherside_li_bg.jpg)  repeat-y;
+	text-align: left;
+	/*border: 1px solid #EC0;*/
+	
+	/*background: url(../pictures/19.jpg);*/
+}
+
+#other_sidebar ul{
+	margin-left:30px;
+	
+	list-style-image:url(image/otherside_li_bg_title.gif);
+}
+
+/*
+#other_sidebar ul li{
+	margin-left:30px;
+	background: url(image/otherside_li_bg.jpg)  repeat-y;
+}
+*/
+#other_mainbody {
+	margin-right: 0;
+	float: left;
+	claer:left;
+	width: 745px;
+	/*min-height: auto;*/
+	text-align: left;
+	border: 1px solid #048dc6;
+
+	margin-bottom: 10px;*/
+}
+#addbottom{
+	min-height:100px;
+	width:950px;
+	
+	
+}
+
+#table_list {
+	text-align: center;
+	line-height: 30px
+}
+/*以下为内容中页面的效果*/
+.nextpage{
+font-size:12px;
+border:1px solid rgb(123,255,255);
+width:43px;
+margin: 0 auto;
+}
+
+.mainbobyleft{
+	width:200px;
+	/*background-color:red;*/
+	float:left;
+	clear: right;
+	text-align:center;
+	
+}
+
+.lefttitle{
+	background: url(image/lefttitle1.jpg) no-repeat;
+	height:25px;
+	
+}
+.leftword{
+	font-size:13px;
+	border:1px solid rgb(230,230,230);
+	margin-top:5px;
+	margin-bottom:5px;
+	height:25px;
+	text-align:left;
+	padding-left:70px;
+	padding-top:5px;
+}
+.leftpic{
+	font-size:13px;
+	/*border:1px solid rgb(230,230,230);*/
+	margin-top:5px;
+	margin-bottom:5px;
+	height:35px;
+	text-align:left;
+	padding-left:45px;
+	padding-top:5px;
+}
+.mainbobybottom{
+	text-align:center;
+	font-size:12px;
+	width:740px;
+	float:right;
+}
+
+/*
+#sidebar {
+	width: 250px;
+	text-align: left;
+	float: right;
+	clear: right;
+	overflow: hidden;
+	border: 1px solid #EC0;
+	background: url(../pictures/19.jpg);
+}
+
+
+#mainbody {
+	width: 645px;
+	min-height: 600px;
+	text-align: left;
+	float: left;
+
+	overflow: hidden;
+	border: 1px solid #EC0;
+	background: url(../pictures/19.jpg);
+	margin-bottom: 10px;
+}
+
+.nextpage{
+
+
+}
+
+
+
+#table_list {
+	text-align: center;
+	line-height: 30px
+}
+*/
+
+/*老师的格式*/
+ .teacher {width:700px; height:260px; margin-left:3px; padding:15px 40px;}
+
+ .teacher_row{width:700px; height:auto; border:none; float:left;}
+
+ .teacher_l{ width:100px; height:auto; text-align:justify;text-justify:distribute-all-lines;text-align-last:justify; font-weight:bold; color:red; float:left;}
+
+ .teacher_r{ width:600px; height:auto; float:left;}
+
+ .teacher_name{ width:60px;	height:25px; float:left;; font-size:12px; color:#333333; text-align:center; float:left;}
+
+ .teacher_name a{ color:#333333;} 			
+
+ .teacher_name a:hover{ color:red; text-decoration:underline; position:relative; top:1px; left:2px;} 			
+
+ 
+ /*以下为图片展示*/
+ .thumbnail{
+	padding: 3px 3px 8px 3px;
+	background-color: #222;
+	border: 1px solid #2a2a2a;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}	
+	
+/*以下为各个新闻的表格美化*/	
+	
+	
